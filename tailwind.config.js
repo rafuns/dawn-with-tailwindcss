@@ -13,6 +13,10 @@ export default {
     plugins: [
         remToPxPlugin({
             baseFontSize: 16,
-        })
+        }),
     ],
-}
+    darkMode: "class",
+    corePlugins: {
+        preflight: false,
+      }
+} 
